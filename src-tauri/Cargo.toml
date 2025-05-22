@@ -16,7 +16,7 @@ name = "labstar_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
-tauri-build = { version = "2", features = [] }
+tauri-build = { version = "2", features = ["config-toml"] }
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
